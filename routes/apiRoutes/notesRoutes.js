@@ -8,7 +8,7 @@ router.get("/notes", (req, res) => {
   //let notes = fs.readFileSync(path.join(__dirname, "../../data/db.json"));
   let results = notes;
 
-  res.json(results);
+  return res.json(results);
 });
 
 router.post("/notes", (req, res) => {
@@ -18,7 +18,7 @@ router.post("/notes", (req, res) => {
     res.status(400).send("The notes is not properly formatted.");
   } else {
     const note = createNewNotes(req.body, notes);
-    res.json(note);
+    return res.json(note);
   }
 });
 
