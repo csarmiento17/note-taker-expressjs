@@ -1,7 +1,19 @@
-{    "notes":[
-        {
-            "title":"Test Title",
-            "text":"Test text"
-        }
-    ]
+{
+  "notes": [
+    {
+      "title": "Laundry",
+      "text": "laundry",
+      "id": "a7cf78d9-9271-47e9-80b9-0fd3291dc417"
+    },
+    {
+      "title": "Biking",
+      "text": "biking",
+      "id": "c8fcdb6d-bc4d-4a07-a669-41f5fa1fb1ca"
+    },
+    {
+      "title": "test",
+      "text": "test",
+      "id": "fb32bc4b-7a42-4d89-a0de-c7b3587369c6"
+    }
+  ]
 }
