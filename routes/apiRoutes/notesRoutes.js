@@ -1,16 +1,17 @@
 const router = require("express").Router();
 const fs = require("fs");
 const path = require("path");
-const { notes } = require("../../data/db.json");
+const notes = require("../../data/db.json");
 const {
   validateNotes,
   createNewNotes,
+  // saveNotesData,
   deleteNotes,
 } = require("../../lib/notes");
 
 router.get("/notes", (req, res) => {
   let results = notes;
-
+  console.log("GET", results);
   return res.json(results);
 });
 
@@ -24,8 +25,8 @@ router.post("/notes", (req, res) => {
 });
 
 router.delete("/notes/:id", (req, res) => {
-  console.log("Routes ", req.params.id);
-  deleteNotes(req.params.id).then(() => res.json());
+  const note = deleteNotes(req.params.id, notes);
+  return res.json(note);
 });
 
 module.exports = router;

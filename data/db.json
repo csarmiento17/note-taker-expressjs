@@ -1,19 +1,22 @@
-{
-  "notes": [
-    {
-      "title": "Laundry",
-      "text": "laundry",
-      "id": "a7cf78d9-9271-47e9-80b9-0fd3291dc417"
-    },
-    {
-      "title": "Biking",
-      "text": "biking",
-      "id": "c8fcdb6d-bc4d-4a07-a669-41f5fa1fb1ca"
-    },
-    {
-      "title": "test",
-      "text": "test",
-      "id": "fb32bc4b-7a42-4d89-a0de-c7b3587369c6"
-    }
-  ]
-}
+[
+  {
+    "title": "1",
+    "text": "1",
+    "id": "9a19c008-3a1b-4b2e-ae4e-12b8427cbe05"
+  },
+  {
+    "title": "3",
+    "text": "3",
+    "id": "c2a51bc5-9a5d-4b7b-89d0-a7f1f5cf3645"
+  },
+  {
+    "title": "s",
+    "text": "s",
+    "id": "db3c0511-ca41-40c2-9700-7d8a0de26d1d"
+  },
+  {
+    "title": "2",
+    "text": "2",
+    "id": "5351f1d7-8067-4c08-8064-f69dde468ae0"
+  }
+]
